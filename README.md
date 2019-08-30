@@ -1,5 +1,10 @@
 # Prometheus uptime monitoring quickstart
 
+cd /mnt/
+git clone https://github.com/Zasimovich/pingprom
+cd pingprom/
+chown 65534:65534 ./data
+
 Refactored as a simple starting point to help introduce you to Prometheus
 based monitoring.
 
